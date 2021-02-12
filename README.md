@@ -1,1 +1,1 @@
-[My CV Page](https://npxrus.github.io/rsschool-cv/cv/ "CV Page)
+[My CV Page](https://npxrus.github.io/rsschool-cv/cv/ "CV Page")
