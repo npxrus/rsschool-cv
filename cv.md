@@ -34,3 +34,6 @@ Udemy course ["NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)"](htt
 
 HTMLAcademy courses and excercises - <https://htmlacademy.ru/profile/npxrus>
 
+
+## English ##
+**A2**
