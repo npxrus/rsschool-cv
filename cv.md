@@ -26,3 +26,19 @@ My goal is to master frontend and backend development at a professional level an
 - *Backend* - NodeJS
 
 ---
+
+## Code:
+**Task from [Codewars](https://www.codewars.com/kata/563700da1ac8be8f1e0000dc)**: *Create a function that takes one positive three digit integer and rearranges its digits to get the maximum possible number. Assume that the argument is an integer.*
+
+**Solution**:
+```js
+var maxRedigit = function(num) {
+  if (typeof num !== 'number' || num <= 0 || num > 999 || num <= 100) {
+    return null;
+  } else {
+    return parseInt(num.toString().split('').sort((a, b) => b - a).join(''));
+  }
+};
+```
+
+---
