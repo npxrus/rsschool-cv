@@ -51,3 +51,8 @@ var maxRedigit = function(num) {
 - npm package [just-weather-cli](https://www.npmjs.com/package/just-weather-cli) - NodeJS ([code](https://github.com/npxrus/simple-weather-cli))
 
 ---
+
+## Languages
+1. Russian (Native)
+1. Chuvash (Native)
+1. English (Intermediate)
