@@ -45,10 +45,10 @@ var maxRedigit = function(num) {
 
 ## Projects:
 
-- [Travel site](https://npxrus.github.io/travel-site/) - HTML / PostCSS / JavaScript / Webpack ([code](https://github.com/npxrus/travel-site))
-- [Natours](https://npxrus.github.io/Natours/) - HTML / SCSS / JavaScript / Gulp ([code](https://github.com/npxrus/Natours))
-- [Monsters rolodex](https://npxrus.github.io/monsters-rolodex/) - ReactJS ([code](https://github.com/npxrus/monsters-rolodex))
-- npm package [just-weather-cli](https://www.npmjs.com/package/just-weather-cli) - NodeJS ([code](https://github.com/npxrus/simple-weather-cli))
+- [Travel site](https://npxrus.github.io/travel-site/) - | HTML | PostCSS | JavaScript | Webpack | ([code](https://github.com/npxrus/travel-site))
+- [Natours](https://npxrus.github.io/Natours/) - | HTML | SCSS | JavaScript | Gulp | ([code](https://github.com/npxrus/Natours))
+- [Monsters rolodex](https://npxrus.github.io/monsters-rolodex/) - | ReactJS | ([code](https://github.com/npxrus/monsters-rolodex))
+- npm package [just-weather-cli](https://www.npmjs.com/package/just-weather-cli) - | NodeJS | ([code](https://github.com/npxrus/simple-weather-cli))
 
 ---
 
