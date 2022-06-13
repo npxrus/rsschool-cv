@@ -16,7 +16,13 @@
     <header class="page-header">
       <nav class="page-navigation">
         <div class="avatar">
-          <a href="#"><img src="./img/cat-relax.jpg" alt="Relaxing cat" /></a>
+          <a href="#"
+            ><img
+              src="./img/cat-relax.jpg"
+              width="200"
+              height="200"
+              alt="Relaxing cat"
+          /></a>
         </div>
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -41,12 +47,137 @@
       </nav>
     </header>
     <main>
-      <section id="about" class="about"></section>
-      <section id="education" class="education"></section>
-      <section id="skills" class="skills"></section>
-      <section id="code" class="code"></section>
-      <section id="projects" class="projects"></section>
-      <section id="languages" class="languages"></section>
+      <div class="page-title">
+        <h1 class="page-header">Evgeniy Mironov</h1>
+        <p class="page-subheader">Junior Frontend Developer</p>
+      </div>
+      <section id="about" class="about">
+        <h2 class="visually-hidden">About me</h2>
+        <p>
+          My goal is to master frontend and backend development at a
+          professional level and become a fullstack Javascript developer.
+        </p>
+        <ul class="contacts-list">
+          <li class="contacts-item">
+            <a href="mailto:npxrus@yandex.com" class="contacts-link"
+              ><span class="visually-hidden">Email</span></a
+            >
+          </li>
+          <li class="contacts-item">
+            <a href="https://t.me/npxrus" class="contacts-link"
+              ><span class="visually-hidden">Telegram</span></a
+            >
+          </li>
+          <li class="contacts-item">
+            <a
+              href="https://discordapp.com/users/811575543115022396/"
+              class="contacts-link"
+              ><span class="visually-hidden">Discord</span></a
+            >
+          </li>
+          <li class="contacts-item">
+            <a href="https://github.com/npxrus" class="contacts-link"
+              ><span class="visually-hidden">GitHub</span></a
+            >
+          </li>
+        </ul>
+      </section>
+      <section id="education" class="education">
+        <h2 class="section-header">Education</h2>
+        <ul class="education-list">
+          <li class="education-item">
+            <h3 class="section-subheader">
+              Innopolis University <span class="date">2021-2022</span>
+            </h3>
+            <p class="heading">Frontend Development</p>
+          </li>
+          <li class="education-item">
+            <h3 class="section-subheader">
+              Udemy <span class="date">2020-2022</span>
+            </h3>
+            <p class="heading">
+              <a href="https://www.udemy.com/user/evgenii-mironov-11/"
+                >Fullstack development</a
+              >
+            </p>
+          </li>
+          <li class="education-item">
+            <h3 class="section-subheader">
+              RS School Pre-School 2022Q2 <span class="date">In progress</span>
+            </h3>
+            <p class="heading">Frontend Development</p>
+          </li>
+          <li class="education-item">
+            <h3 class="section-subheader">
+              RS School NodeJS 2022Q2 <span class="date">In progress</span>
+            </h3>
+            <p class="heading">Backend Development</p>
+          </li>
+        </ul>
+      </section>
+      <section id="skills" class="skills">
+        <h2 class="section-header">Skills</h2>
+        <h3 class="heading">Programming languages & tools</h3>
+        <ul class="tools-list">
+          <li class="tools-item"><span class="visually-hidden">HTML</span></li>
+          <li class="tools-item"><span class="visually-hidden">CSS</span></li>
+          <li class="tools-item">
+            <span class="visually-hidden">Javascript</span>
+          </li>
+          <li class="tools-item"><span class="visually-hidden">npm</span></li>
+          <li class="tools-item">
+            <span class="visually-hidden">NodeJS</span>
+          <li class="tools-item">
+            <span class="visually-hidden">ReactJS</span>
+          </li>
+          </li>
+          <li class="tools-item"><span class="visually-hidden">Sass</span></li>
+          <li class="tools-item"><span class="visually-hidden">PostCSS</span></li>
+          <li class="tools-item"><span class="visually-hidden">Gulp</span></li>
+          <li class="tools-item"><span class="visually-hidden">Webpack</span></li>
+        </ul>
+        <h3 class="heading">Workflow</h3>
+        <ul class="workflow-list">
+          <li class="workflow-item">Mobile-First, Responsive Design</li>
+          <li class="workflow-item">Cross Browser Testing & Debugging</li>
+        </ul>
+      </section>
+      <section id="code" class="code">
+        <h2 class="visually-hidden">Code example</h2>
+        <p class="task">Task from <a href="https://www.codewars.com/kata/563700da1ac8be8f1e0000dc">Codewars</a>:</p>
+        <p class="task-description">Create a function that takes one positive three digit integer and rearranges its digits to get the maximum possible number. Assume that the argument is an integer.</p>
+        <p class="task-solution">
+          <pre>
+            <code>
+    var maxRedigit = function(num) {
+      if (typeof num !== 'number' || num <= 0 || num > 999 || num <= 100) {
+        return null;
+      } else {
+        return parseInt(num.toString().split('').sort((a, b) => b - a).join(''));
+      }
+    };
+            </code>
+          </pre>
+        </p>
+      </section>
+      <section id="projects" class="projects">
+        <h2 class="section-header">Projects</h2>
+        <ul class="projects-list">
+          <li class="projects-item"><p class="heading"><a href="https://npxrus.github.io/travel-site/" class="projects-link">Travel site</a></p>
+          <p><a href="https://github.com/npxrus/travel-site">Code</a></p></li>
+          <li class="projects-item"><p class="heading"><a href="https://npxrus.github.io/Natours/" class="projects-link">Natours</a></p><p><a href="https://github.com/npxrus/Natours">Code</a></p></li>
+          <li class="projects-item"><p class="heading"><a href="https://npxrus.github.io/monsters-rolodex/" class="projects-link">Monster Rolodex</a></p><p><a href="https://github.com/npxrus/monsters-rolodex">Code</a></p></li>
+          <li class="projects-item"><p class="heading"><a href="https://www.npmjs.com/package/just-weather-cli" class="projects-link">Just weather cli</a></p><p><a href="https://github.com/npxrus/simple-weather-cli">Code</a></p></li>
+        </ul>
+      </section>
+      <section id="languages" class="languages">
+        <h2 class="section-header">Languages</h2>
+        <ul class="languages-list">
+          <li class="languages-item">Russian (native)</li>
+          <li class="languages-item">Chuvash (native)</li>
+          <li class="languages-item">English (intermediate)</li>
+        </ul>
+      </section>
     </main>
     <footer class="page-footer"></footer>
   </body>
