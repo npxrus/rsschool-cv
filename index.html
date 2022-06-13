@@ -127,9 +127,9 @@
           <li class="tools-item"><span class="visually-hidden">npm</span></li>
           <li class="tools-item">
             <span class="visually-hidden">NodeJS</span>
+          </li>
           <li class="tools-item">
             <span class="visually-hidden">ReactJS</span>
-          </li>
           </li>
           <li class="tools-item"><span class="visually-hidden">Sass</span></li>
           <li class="tools-item"><span class="visually-hidden">PostCSS</span></li>
@@ -149,13 +149,13 @@
         <p class="task-solution">
           <pre>
             <code>
-    var maxRedigit = function(num) {
-      if (typeof num !== 'number' || num <= 0 || num > 999 || num <= 100) {
-        return null;
-      } else {
-        return parseInt(num.toString().split('').sort((a, b) => b - a).join(''));
-      }
-    };
+              var maxRedigit = function(num) {
+                if (typeof num !== 'number' || num <= 0 || num > 999 || num <= 100) {
+                  return null;
+                } else {
+                  return parseInt(num.toString().split('').sort((a, b) => b - a).join(''));
+                }
+              };
             </code>
           </pre>
         </p>
@@ -179,6 +179,12 @@
         </ul>
       </section>
     </main>
-    <footer class="page-footer"></footer>
+    <footer class="page-footer">
+      <div class="logo"><a href="https://rs.school/js/"><img src="./img/logo.svg" width="100" alt="RS School logo"></a></div>
+      <div class="copyright">
+        <time datetime="2022">2022</time>
+        <a href="https://github.com/npxrus">Evgeniy Mironov</a>
+      </div>
+    </footer>
   </body>
 </html>
